@@ -1,6 +1,6 @@
 ---
 isDraft: false
-title: Actus ?? 
+title: En maintenance
 snippet: En cours ...
 slug: ai-adoption-is-a-ux-problem
 author: Belliard Maël
