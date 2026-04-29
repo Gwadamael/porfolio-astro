@@ -2,7 +2,6 @@
 import H1 from "../components/h1.astro";
 import InfoLayout from "../layouts/InfoLayout.astro";
 ---
-
 <InfoLayout>
   <div class="p-4 sm:pt-8 sm:px-12 pb-20 min-h-dvh flex flex-col justify-between gap-32">
     <div class="space-y-4 sm:space-y-12">
@@ -26,7 +25,7 @@ import InfoLayout from "../layouts/InfoLayout.astro";
             "2024-2026 : BTS SIO Institution des Chartreux, Lyon 69001"
             <br />
             "2022-2023 : Lycée ICOF, Lyon 69001"
-            <br /><br />
+            <br />
 
             <strong>Compétences Clés :</strong>
             <br />
@@ -36,9 +35,25 @@ import InfoLayout from "../layouts/InfoLayout.astro";
             <br />
             - Travail d'équipe
             <br />
-            - Connaissances de base en HTML, CSS, PHP, Laravel, Python, C#, Filament, React Native.
-            <br /><br />
+            - Connaissances de base en HTML, CSS, PHP, Python, C#, Laravel, Filament, React Native.
+            <br />
+
+            <strong>Langues :</strong>
+            <br />
+            Espagnol A2, Anglais B2
+            <br />
             
+            <strong>Diplômes :</strong>
+            <br />
+            Permis de conduire, BAC
+            <br />
+            
+            <strong>Intérêts :</strong>
+            <br />
+            Sport, Lecture, Apprentissage autonome
+            <br />
+            <br />
+
             <a href="https://www.credly.com/users/mael-belliard" target="_blank"
               class="inline-flex w-auto px-4 py-2 mt-5 text-xs font-semibold duration-300 ease-out border rounded-full bg-neutral-900 dark:bg-white dark:text-neutral-900 text-neutral-100 hover:border-neutral-700 border-neutral-900 dark:hover:border-neutral-300 hover:bg-white dark:hover:bg-black dark:hover:text-white hover:text-neutral-900">
               Certifications 
@@ -50,34 +65,77 @@ import InfoLayout from "../layouts/InfoLayout.astro";
         <div class="w-px bg-gray-300 dark:bg-neutral-700"></div>
 
         <!-- Colonne droite -->
-        <div class="w-1/2 pl-5">
-          <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
-            <strong>Expériences :</strong>
-            <br />
-            Février 2026 - Avril 2026 : Stage chez SDIS84, Cartographie SI et gouvernance de données.
-            <br />
-            Juin 2025 - Juillet 2025 : Stage chez SDIS84, Gestion de base de données et application
-            <br />
-            Juin 2024 - Juillet 2024 : Stage chez Awaks, Gestion de terminal informatique
-            <br />
-            Mai 2019 : Stage ENS Avignon
-            <br /><br />
+<div class="w-1/2 pl-5">
+  <div class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+    <strong>Expériences professionnelles :</strong>
 
-            <strong>Langues :</strong>
-            <br />
-            Espagnol (A2), Anglais (B2)
-            <br /><br />
-            
-            <strong>Diplômes :</strong>
-            <br />
-            Permis de conduire, BAC
-            <br /><br />
-            
-            <strong>Intérêts :</strong>
-            <br />
-            Aventurier autodidacte, Sport, Lecture
-          </p>
+    <div class="mt-4 space-y-5">
+      <!-- SDIS84 -->
+      <div class="space-y-1">
+        <div class="font-semibold text-neutral-900 dark:text-neutral-200">
+          Stage SDIS84
         </div>
+        <div class="text-sm text-gray-600 dark:text-neutral-400">
+          <span class="font-medium">Février 2026 - Avril 2026 :</span>
+          Gouvernance de données et cartographie du système d'information.
+        </div>
+        <div class="text-sm text-gray-600 dark:text-neutral-400">
+          <span class="font-medium">Juin 2025 - Juillet 2025 :</span>
+          Base de données, SQL, organisation, analyse, respect des consignes.
+        </div>
+        <div class="text-sm text-gray-600 dark:text-neutral-400">
+          Cartographie SI, gouvernance des données, rigueur, travail en équipe, confidentialité.
+        </div>
+      </div>
+
+      <!-- Awaks -->
+      <div class="space-y-1">
+        <div class="font-semibold text-neutral-900 dark:text-neutral-200">
+          Stage Awaks
+        </div>
+        <div class="text-sm text-gray-600 dark:text-neutral-400">
+          <span class="font-medium">Juin 2024 - Juillet 2024 :</span>
+          Support IT, maintenance, configuration, réactivité.
+        </div>
+      </div>
+
+      <!-- LMV -->
+      <div class="space-y-1">
+        <div class="font-semibold text-neutral-900 dark:text-neutral-200">
+          Ripeur LMV
+        </div>
+        <div class="text-sm text-gray-600 dark:text-neutral-400">
+          <span class="font-medium">2023 - 2025 :</span>
+          Travail d’équipe, sécurité, ponctualité, service public.
+        </div>
+      </div>
+
+      <!-- Pizza-Bella -->
+      <div class="space-y-1">
+        <div class="font-semibold text-neutral-900 dark:text-neutral-200">
+          Cuisinier Pizza-Bella
+        </div>
+        <div class="text-sm text-gray-600 dark:text-neutral-400">
+          <span class="font-medium">2023 - 2024 :</span>
+          Rapidité, gestion du stress, hygiène, esprit d’équipe.
+        </div>
+      </div>
+
+      <!-- Autres -->
+      <div class="space-y-2">
+        <div class="font-semibold text-neutral-900 dark:text-neutral-200">
+          Autres expériences
+        </div>
+        <ul class="list-disc pl-5 space-y-1 text-sm text-gray-600 dark:text-neutral-400">
+          <li>Livreur Au-jardin Napoli — autonomie, fiabilité, relation client</li>
+          <li>Technicien de surface CapFun — rigueur, organisation, normes d’hygiène</li>
+          <li>Aide agricole — endurance, adaptabilité, ponctualité</li>
+          <li><span class="font-medium">Mai 2019 :</span> Stage ENS Avignon</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
 
       <h2 class="mt-10 mb-6 text-3xl font-bold text-white">Mon parcours</h2>
